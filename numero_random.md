@@ -5,15 +5,16 @@ Pasos a seguir:
 2. Pedir al usuario un intento
 3. Comparar el numero generado por el ordenador con el número escrito por el usuario
 4. Aportar pista: < y >
-5. en caso de acierto, generar mensajes de congratulación
+5. en caso de acierto, generar mensajes de éxito
 6. Contador intentos hasta el éxito
 7. Volver empezar 
 
 
 **Lista de tareas**
-1. Generar un número en el rango numerico del 0 al 100 numer=(1,100)
+1. Generar un número en el rango numerico del 1 al 100 numer=(1,100)
 2. Guardar el numero generado
 3. Solicitar al usuario un número en el mismo rango en bucle:
+   
     3.1- Validar que el usuario sea un número en el rango establecido
     3.2- Comparar el numero generado por el ordenador
     3.3- Si el número no esl mismo, aportar pista
@@ -71,5 +72,5 @@ Traducción:
             elif intento>numero_aleatorio:
                 print("El valor es demasiado bajo")
             else: 
-                print("Has acertado!")
+                print("Felicidades, lo lograste en _ intentos!")
 
