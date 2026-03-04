@@ -58,13 +58,13 @@ Pasos a seguir:
 
 
 Traducción:
-    1. Generar numero_aleatorio entre 1 y 100 | numero_secreto = random.randint(0,100)
+    1. Generar numero_aleatorio entre 1 y 100 | numero_secreto = random.randint(1,100)
     2. Crear un contador de intentos | contador=0
     3. Crear un mensaje de bienvenida al usuario | print("Bienvenido al juego. Adivina el número y sal del bucle)
     4. Crear el bucle | while intento != numero_secreto:
-        4.1 intento=input("Introduce un numero entre 0 al 100")
-        4.2 if numero not in range(0,100):
-            print("Error. Intenta con un numero del 0 al 100)
+        4.1 intento=input("Introduce un numero entre 1 al 100")
+        4.2 if numero not in range(1,100):
+            print("Error. Intenta con un numero del 1 al 100)
             intento=input()
         4.3. If intento<numero_aleatorio:
                 print("El valor es demasiado bajo")
