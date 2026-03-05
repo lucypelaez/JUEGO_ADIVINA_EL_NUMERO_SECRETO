@@ -26,10 +26,7 @@ def jugar_partida():
         else:
             print ("Has acertado!, ¡Enhorabuena!")
             print (f"Lo has conseguido en {intentos} intentos ")
-            return intentos
-        
-jugar_partida()        
-        
+            return intentos    
        
 def main():
     mejor_puntuacion = None
@@ -46,8 +43,10 @@ def main():
             
         continuar_jugando = input("¿Quieres jugar otra vez? (s/n): ").lower()
         if continuar_jugando != "s":
-            break 
+            print("Gracias por jugar")
+            break
 
+    
 
 main()
 
